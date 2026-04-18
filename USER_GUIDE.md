@@ -15,7 +15,7 @@ Your website has these pages:
 - **Book** — Where customers request a quote (form coming in the next update)
 - **Contact** — Phone, text, service area, and response time
 - **Referral** — Your "Refer a Neighbor, both save 15%" program
-- **Blog** — Tips and articles about eco-friendly cleaning (first post coming soon)
+- **Blog** — Tips and articles about cleaning and home care (first post coming soon)
 
 ---
 

@@ -5,7 +5,7 @@ import {
   ShieldCheck,
   UserCheck,
   Award,
-  Leaf,
+  Sliders,
   SprayCan,
   User,
   Sparkles,
@@ -33,24 +33,24 @@ const services = [
     icon: Truck,
     title: "Eco-Move In/Out",
     description:
-      "Specialized cleaning for property transitions, focusing on allergen removal and non-toxic residues.",
+      "Specialized cleaning for property transitions, leaving the space spotless for whoever comes next.",
     href: "/services#move",
   },
   {
     icon: Heart,
     title: "Health & Wellness Add-ons",
     description:
-      "HEPA-filter vacuuming and plant-based disinfection for homes with pets or children.",
+      "Extra attention for homes with pets or children — tailored to your household\u2019s needs.",
     href: "/services#wellness",
   },
 ];
 
 const whyPrecious = [
   {
-    icon: Leaf,
-    title: "Non-toxic by default.",
+    icon: Sliders,
+    title: "Flexible to your needs.",
     description:
-      "Plant-based products that work. Your kids, pets, and HVAC will notice.",
+      "Every home is different. I adapt my approach to what your household actually needs.",
   },
   {
     icon: SprayCan,
@@ -101,11 +101,11 @@ export default function HomePage() {
         <div className="mx-auto max-w-[1200px] px-6 py-20 md:py-28">
           <div className="max-w-2xl">
             <h1 className="font-serif text-4xl md:text-6xl font-semibold leading-[1.05] tracking-tight text-foreground">
-              Eco-friendly house cleaning for Chicago homes that actually
-              breathe easier.
+              Personal, thorough house cleaning for Chicago homes — by
+              someone who actually cares.
             </h1>
             <p className="mt-6 text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
-              Non-toxic products, HEPA vacuuming, and the kind of personal care
+              One person, one standard, every time — the kind of personal care
               a franchise can&apos;t offer. Serving Hyde Park, Woodlawn,
               Bronzeville, and nearby neighborhoods.
             </p>
@@ -159,8 +159,8 @@ export default function HomePage() {
         <div className="mx-auto max-w-[1200px] px-6 py-16 md:py-20 text-center">
           <p className="mx-auto max-w-2xl text-xl md:text-2xl font-serif leading-relaxed text-foreground">
             &ldquo;I&rsquo;m Precious. I clean Chicago homes the way I&rsquo;d
-            clean my own&thinsp;&mdash;&thinsp;one home at a time, with products
-            that don&rsquo;t make anyone in the house cough.&rdquo;
+            clean my own&thinsp;&mdash;&thinsp;one home at a time, with the kind
+            of care you just don&rsquo;t get from a franchise.&rdquo;
           </p>
           <p className="mt-4 text-sm text-muted-foreground">
             Bukola Precious Agbenike, Owner

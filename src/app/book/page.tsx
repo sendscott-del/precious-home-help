@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Request a Quote",
   description:
-    "Get a personalized quote for eco-friendly house cleaning in Chicago. Fill out the form and Precious will get back to you within one business day.",
+    "Get a personalized quote for house cleaning in Chicago. Fill out the form and Precious will get back to you within one business day.",
 };
 
 export default function BookPage() {

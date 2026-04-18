@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Sparkles, Home, Truck, Heart, Leaf } from "lucide-react";
+import { Sparkles, Home, Truck, Heart, User } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Cleaning Services — Essential, Deep, Eco Move-Out",
   description:
-    "Explore eco-friendly cleaning services in Chicago: recurring cleans, deep sanctuary cleans, move in/out, and health & wellness add-ons. $35/hour.",
+    "Personal, thorough cleaning services in Chicago: recurring cleans, deep sanctuary cleans, move in/out, and custom add-ons. $35/hour.",
 };
 
 const services = [
@@ -50,14 +50,14 @@ const services = [
     icon: Truck,
     title: "Eco-Move In/Out",
     positioning:
-      "Specialized cleaning for property transitions, focusing on allergen removal and non-toxic residues.",
+      "Specialized cleaning for property transitions, leaving the space spotless for whoever comes next.",
     includes: [
       "Full deep clean of all rooms",
       "Inside all cabinets, closets, and drawers",
       "Appliance interiors (oven, refrigerator, dishwasher)",
-      "Allergen-focused vacuuming with HEPA filtration",
-      "Non-toxic product use for safe residue levels",
+      "Thorough vacuuming including corners and edges",
       "Window cleaning (interior)",
+      "Final walk-through to make sure nothing is missed",
     ],
     whoItsFor:
       "Renters, landlords, and homeowners preparing for a move in or out.",
@@ -65,18 +65,18 @@ const services = [
   {
     id: "wellness",
     icon: Heart,
-    title: "Health & Wellness Add-ons",
+    title: "Custom Add-ons",
     positioning:
-      "Extra care for households with allergies, young children, or pets.",
+      "Extra care tailored to your household — pets, kids, or anything else that needs special attention.",
     includes: [
-      "HEPA-filter vacuuming for fine particulates",
-      "Plant-based disinfection of high-touch surfaces",
       "Pet hair and dander focused treatment",
-      "Hypoallergenic product options",
-      "Air quality-conscious cleaning techniques",
+      "Extra attention to high-touch surfaces",
+      "Organizing and tidying common areas",
+      "Laundry folding or linen changes",
+      "Flexible scheduling for your routine",
     ],
     whoItsFor:
-      "Families with pets, children, allergies, or anyone who wants the healthiest possible home environment.",
+      "Families with pets, children, or anyone who wants a little extra beyond the standard clean.",
   },
 ];
 
@@ -89,8 +89,8 @@ export default function ServicesPage() {
             Cleaning services
           </h1>
           <p className="text-lg text-muted-foreground text-center max-w-2xl mx-auto mb-16">
-            Every service uses plant-based, non-toxic products by default. Your
-            home gets genuinely clean without the chemical residue.
+            Every service is personally handled by Precious — same person,
+            same standard, same attention to detail every time.
           </p>
 
           <div className="space-y-16">
@@ -153,19 +153,19 @@ export default function ServicesPage() {
       <section className="bg-background-alt border-t border-border">
         <div className="mx-auto max-w-[1200px] px-6 py-16 md:py-20">
           <div className="max-w-2xl mx-auto text-center">
-            <Leaf className="w-10 h-10 text-primary mx-auto mb-4" />
+            <User className="w-10 h-10 text-primary mx-auto mb-4" />
             <h2 className="font-serif text-3xl font-semibold text-foreground mb-4">
-              Product philosophy
+              Why owner-operated matters
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              I use plant-based, non-toxic cleaning products by default. They
-              work just as well without leaving chemical residues in your home.
-              Your kids, pets, and HVAC system will notice the difference.
+              When you book with Precious Home Help, you get Precious &mdash;
+              every time. No rotating staff, no wondering who&rsquo;s showing
+              up. Just one person who knows your home and your preferences.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Prefer your own supplies? That&rsquo;s fine too. I&rsquo;ll use
-              them &mdash; and I&rsquo;ll tell you honestly if they aren&rsquo;t
-              up to the job.
+              Have specific products you prefer? A particular way you like
+              things done? Just say so. I&rsquo;m flexible and I pay attention
+              to the details that matter to you.
             </p>
           </div>
         </div>

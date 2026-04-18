@@ -19,11 +19,11 @@ const fraunces = Fraunces({
 
 export const metadata: Metadata = {
   title: {
-    default: "Eco-Friendly House Cleaning in Chicago | Precious Home Help",
+    default: "Personal House Cleaning in Chicago | Precious Home Help",
     template: "%s | Precious Home Help",
   },
   description:
-    "Non-toxic, HEPA-filtered, owner-operated cleaning for Hyde Park, Woodlawn, Bronzeville, and nearby Chicago neighborhoods. $35/hour, fully licensed and insured.",
+    "Owner-operated, personal house cleaning for Hyde Park, Woodlawn, Bronzeville, and nearby Chicago neighborhoods. $35/hour, fully licensed and insured.",
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL || "https://precioushomehelp.com"
   ),

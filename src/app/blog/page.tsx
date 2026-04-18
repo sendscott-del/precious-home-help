@@ -2,19 +2,19 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Blog — Eco-Friendly Cleaning Tips",
+  title: "Blog — Cleaning Tips & Home Care",
   description:
-    "Tips and insights on non-toxic cleaning, HEPA vacuuming, and keeping a healthy home in Chicago.",
+    "Tips and insights on keeping a clean, well-maintained home in Chicago.",
 };
 
 // TODO: Replace with dynamic MDX file reading in Phase 4
 const posts = [
   {
-    slug: "non-toxic-home",
-    title: "The Health Benefits of a Non-Toxic Home",
+    slug: "why-personal-cleaning",
+    title: "Why a Personal Cleaner Makes All the Difference",
     date: "Coming soon",
     description:
-      "Why switching to plant-based cleaning products matters for your family\u2019s health.",
+      "What you get when the same person cleans your home every time \u2014 and why franchises can\u2019t match it.",
   },
 ];
 
@@ -26,7 +26,7 @@ export default function BlogPage() {
           Blog
         </h1>
         <p className="text-lg text-muted-foreground text-center max-w-xl mx-auto mb-12">
-          Tips and insights on eco-friendly cleaning and keeping a healthy home.
+          Tips and insights on keeping a clean, comfortable home.
         </p>
 
         <div className="max-w-2xl mx-auto space-y-6">

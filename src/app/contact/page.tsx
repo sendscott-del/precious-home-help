@@ -4,7 +4,7 @@ import { Phone, MessageCircle, Mail, MapPin, Clock } from "lucide-react";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with Precious Home Help. Call, text, or email for eco-friendly cleaning in Chicago.",
+    "Get in touch with Precious Home Help. Call, text, or email for personal house cleaning in Chicago.",
 };
 
 export default function ContactPage() {

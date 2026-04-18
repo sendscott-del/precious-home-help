@@ -2,7 +2,7 @@
 
 # Precious Home Help
 
-Eco-friendly house cleaning marketing site for Bukola Precious Agbenike in Chicago.
+Personal, owner-operated house cleaning marketing site for Bukola Precious Agbenike in Chicago.
 
 ## Tech Stack
 - Next.js 14 (App Router) + TypeScript

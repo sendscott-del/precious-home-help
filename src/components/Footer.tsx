@@ -20,7 +20,7 @@ export function Footer() {
               Precious Home Help
             </h3>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-xs">
-              Eco-friendly, owner-operated house cleaning for Chicago&apos;s
+              Personal, owner-operated house cleaning for Chicago&apos;s
               Hyde Park, Woodlawn, Bronzeville, and surrounding neighborhoods.
             </p>
           </div>

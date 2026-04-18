@@ -8,13 +8,13 @@
 - Installed shadcn/ui components (Button, Input, Textarea, Select, Card, Dialog, Label)
 - Installed project dependencies: resend, react-hook-form, zod, @hookform/resolvers, lucide-react, next-mdx-remote
 - Configured fonts: Fraunces (serif display) + Inter (sans body) via next/font
-- Set up eco/premium color palette (sage green, warm cream, clay accents)
+- Set up warm premium color palette (sage green, warm cream, clay accents)
 - Built responsive Nav with mobile hamburger menu and sticky CTA
 - Built Footer with service area, license info, and navigation
 - Built sticky mobile CTA ("Text (872) 235-9880")
 - Created all page routes: Home, Services, Pricing, About, Book, Contact, Referral, Blog
 - Home page includes all 8 sections: Hero, Trust band, Positioning statement, Services grid, Why Precious, Testimonials, Service area, Closing CTA
-- Services page with 4 tiers fully detailed + Product Philosophy section
+- Services page with 4 tiers fully detailed + "Why owner-operated matters" section
 - Pricing page with $35/hr display and market positioning
 - About page with placeholder for Precious's bio (TODO)
 - Contact page with call, text, and service area info
@@ -22,3 +22,16 @@
 - Blog index and post placeholder pages (MDX rendering in Phase 4)
 - SEO: sitemap.ts, robots.ts, JSON-LD helper, per-page metadata
 - Added .env.local.example with Resend config
+
+## v0.1.1 — 2026-04-18
+
+### Messaging pivot: personal + owner-operated focus
+
+- Removed all eco-friendly, non-toxic, HEPA, and plant-based messaging across the entire site
+- Repositioned around personal service, flexibility, and owner-operated consistency
+- Updated hero: "Personal, thorough house cleaning for Chicago homes — by someone who actually cares"
+- Replaced "Non-toxic by default" value prop with "Flexible to your needs"
+- Repositioned "Health & Wellness Add-ons" tier as "Custom Add-ons" (pet care, organizing, laundry, flexible scheduling)
+- Changed "Product Philosophy" section to "Why owner-operated matters"
+- Updated all page metadata, descriptions, and blog content to match new positioning
+- Updated SEO config and site description

@@ -1,5 +1,7 @@
 export const siteConfig = {
   name: "Precious Home Help",
+  description:
+    "Owner-operated, personal house cleaning for Chicago's South Side neighborhoods.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://precioushomehelp.com",
   phone: "+1-872-235-9880",
   priceRange: "$35/hr",

@@ -6,7 +6,7 @@ import { Shield, ShieldCheck, UserCheck, Award } from "lucide-react";
 export const metadata: Metadata = {
   title: "Transparent $35/hr Cleaning Pricing in Chicago",
   description:
-    "Simple hourly pricing for eco-friendly house cleaning in Chicago. $35/hour for all services — no surprise minimums or hidden fees.",
+    "Simple hourly pricing for personal house cleaning in Chicago. $35/hour for all services — no surprise minimums or hidden fees.",
 };
 
 export default function PricingPage() {

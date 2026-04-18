@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 // TODO: Replace with dynamic MDX rendering in Phase 4
 export const metadata: Metadata = {
   title: "Blog Post",
-  description: "Eco-friendly cleaning tips from Precious Home Help.",
+  description: "Cleaning tips and home care insights from Precious Home Help.",
 };
 
 export default function BlogPostPage() {
@@ -26,7 +26,7 @@ export default function BlogPostPage() {
         </h1>
         <p className="text-muted-foreground leading-relaxed">
           This blog post is currently being written. Check back soon for
-          eco-friendly cleaning tips and insights.
+          cleaning tips and home care insights.
         </p>
 
         <div className="mt-12 bg-background-alt rounded-2xl p-8 border border-border text-center">
@@ -34,7 +34,7 @@ export default function BlogPostPage() {
             Ready for a cleaner home?
           </h2>
           <p className="text-muted-foreground mb-4">
-            Get a personalized quote for eco-friendly cleaning in Chicago.
+            Get a personalized quote for house cleaning in Chicago.
           </p>
           <Button
             render={<Link href="/book" />}

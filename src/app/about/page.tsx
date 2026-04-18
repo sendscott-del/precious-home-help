@@ -6,7 +6,7 @@ import { Shield, ShieldCheck, UserCheck, MapPin } from "lucide-react";
 export const metadata: Metadata = {
   title: "About Precious",
   description:
-    "Meet Bukola Precious Agbenike — owner and sole operator of Precious Home Help, an eco-friendly cleaning service in Chicago.",
+    "Meet Bukola Precious Agbenike — owner and sole operator of Precious Home Help, a personal cleaning service in Chicago.",
 };
 
 export default function AboutPage() {
@@ -28,8 +28,8 @@ export default function AboutPage() {
             <div className="prose prose-lg mx-auto text-muted-foreground leading-relaxed space-y-4">
               <p>
                 Hi, I&rsquo;m Precious. I started Precious Home Help because I
-                believe everyone deserves a clean, healthy home &mdash; without
-                the harsh chemicals that most cleaning services use.
+                believe everyone deserves a clean, well-cared-for home &mdash;
+                with the personal attention that bigger services just can&rsquo;t provide.
               </p>
               <p className="text-sm text-accent italic">
                 [This section will be updated with Precious&rsquo;s personal
