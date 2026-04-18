@@ -53,6 +53,10 @@ export function Footer() {
               surrounding Chicago neighborhoods
             </p>
             <p className="text-sm text-muted-foreground mt-4">
+              Precious Home Help is a licensed, home-based cleaning
+              service serving the South Side of Chicago.
+            </p>
+            <p className="text-sm text-muted-foreground mt-2">
               Chicago Business License #306549
             </p>
             <p className="text-sm text-muted-foreground mt-1">

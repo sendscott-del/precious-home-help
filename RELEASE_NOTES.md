@@ -35,3 +35,11 @@
 - Changed "Product Philosophy" section to "Why owner-operated matters"
 - Updated all page metadata, descriptions, and blog content to match new positioning
 - Updated SEO config and site description
+
+## v0.1.2 — 2026-04-18
+
+### Google Business Profile trust signals
+
+- Added home-based business statement to footer for GBP reinstatement compliance
+- Footer now reads: "Precious Home Help is a licensed, home-based cleaning service serving the South Side of Chicago."
+- Added Google Business Forum reinstatement post draft (google_forum_post.md)

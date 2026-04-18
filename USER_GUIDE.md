@@ -34,7 +34,7 @@ On mobile, there's a sticky "Text" button at the bottom of every page so custome
 
 1. **Your email address** — for the quote form to send you leads
 2. **Your personal bio** — a paragraph or two in your own words for the About page
-3. **Do you have a Google Business Profile?** — this is important for local search
+3. **Google Business Profile** — your GBP is currently suspended due to a duplicate profile flag. We've added trust signals to the website footer (home-based statement, license number, owner name, service area) and prepared a forum post for reinstatement. See `google_forum_post.md` for the post to submit after waiting 48-72 hours
 4. **Do you have email on your domain** (like precious@precioushomehelp.com)? — we need to know before switching DNS
 5. **Insurance details** — exact wording you'd like on the site
 
