@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Shield, ShieldCheck, UserCheck, MapPin } from "lucide-react";
@@ -15,9 +16,15 @@ export default function AboutPage() {
       <section className="bg-background">
         <div className="mx-auto max-w-[1200px] px-6 py-16 md:py-24">
           <div className="max-w-2xl mx-auto">
-            {/* TODO: Add Precious's photo here with next/image once we have the optimized image */}
-            <div className="w-48 h-48 rounded-2xl bg-background-alt border border-border mx-auto mb-8 flex items-center justify-center">
-              <span className="text-sm text-muted-foreground">Photo</span>
+            <div className="relative w-48 h-48 rounded-2xl overflow-hidden border border-border mx-auto mb-8 shadow-[0_1px_3px_rgba(43,43,40,0.06),0_4px_12px_rgba(43,43,40,0.08)]">
+              <Image
+                src="/images/site/precious.jpg"
+                alt="Bukola Precious Agbenike, owner of Precious Home Help"
+                fill
+                sizes="192px"
+                className="object-cover"
+                priority
+              />
             </div>
 
             <h1 className="font-serif text-4xl md:text-5xl font-semibold text-foreground text-center mb-8">

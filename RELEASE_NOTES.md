@@ -15,7 +15,7 @@
 - Created all page routes: Home, Services, Pricing, About, Book, Contact, Referral, Blog
 - Home page includes all 8 sections: Hero, Trust band, Positioning statement, Services grid, Why Precious, Testimonials, Service area, Closing CTA
 - Services page with 4 tiers fully detailed + "Why owner-operated matters" section
-- Pricing page with $35/hr display and market positioning
+- Pricing page with $25/hr display and market positioning
 - About page with placeholder for Precious's bio (TODO)
 - Contact page with call, text, and service area info
 - Referral page with 3-step "Refer a Neighbor" flow
@@ -55,3 +55,16 @@
 - Loading state shows spinner while submitting
 - Server errors display user-friendly message with phone number fallback
 - Requires RESEND_API_KEY, QUOTE_RECIPIENT_EMAIL, and QUOTE_FROM_EMAIL env vars in Vercel
+
+## v0.3.0 — 2026-04-19
+
+### Brand refresh: logo, real photos, and new hourly rate
+
+- Dropped hourly rate from $35 to $25 across pricing page, services page, layout metadata, SEO config, and CLAUDE.md
+- Repainted the palette around Precious's logo colors: primary is now logo green (#2E8B3E) and accent is logo orange (#E07B39), replacing the sage/clay scheme
+- Added Precious's circular logo to the Nav (left of the wordmark) and to the Footer "About" block
+- Replaced the About page photo placeholder with Precious's actual profile photo
+- Added a new "Homes Precious has cleaned" gallery section on the home page featuring kitchen, dining room, and laundry photos from a real client home
+- Reworked the closing CTA banner to use the accent orange so both brand colors are represented on the home page
+- Updated the pricing page market-positioning copy to frame the new $25/hr rate as neighbor-friendly without cutting corners
+- Copied all assets into /public/images/site/ (logo.png, precious.jpg, kitchen.webp, dining-room.webp, laundry.webp)

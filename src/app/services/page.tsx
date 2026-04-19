@@ -6,7 +6,7 @@ import { Sparkles, Home, Truck, Heart, User } from "lucide-react";
 export const metadata: Metadata = {
   title: "Cleaning Services — Essential, Deep, Eco Move-Out",
   description:
-    "Personal, thorough cleaning services in Chicago: recurring cleans, deep sanctuary cleans, move in/out, and custom add-ons. $35/hour.",
+    "Personal, thorough cleaning services in Chicago: recurring cleans, deep sanctuary cleans, move in/out, and custom add-ons. $25/hour.",
 };
 
 const services = [

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import {
@@ -13,6 +14,24 @@ import {
   Home,
   Truck,
 } from "lucide-react";
+
+const gallery = [
+  {
+    src: "/images/site/kitchen.webp",
+    alt: "Spotless kitchen cleaned by Precious — gleaming counters and polished appliances",
+    label: "Kitchen",
+  },
+  {
+    src: "/images/site/dining-room.webp",
+    alt: "Tidy, dusted dining room set for the family — cleaned by Precious",
+    label: "Dining room",
+  },
+  {
+    src: "/images/site/laundry.webp",
+    alt: "Freshly organized laundry room cleaned by Precious",
+    label: "Laundry",
+  },
+];
 
 const services = [
   {
@@ -221,8 +240,40 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Gallery — Precious's actual work */}
+      <section className="bg-background-alt border-y border-border">
+        <div className="mx-auto max-w-[1200px] px-6 py-16 md:py-20">
+          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-foreground text-center mb-4">
+            Homes Precious has cleaned
+          </h2>
+          <p className="text-muted-foreground text-center max-w-xl mx-auto mb-12">
+            Real rooms from real clients &mdash; the standard I bring to every
+            visit.
+          </p>
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {gallery.map((photo) => (
+              <figure
+                key={photo.src}
+                className="relative overflow-hidden rounded-2xl border border-border bg-background aspect-[4/3]"
+              >
+                <Image
+                  src={photo.src}
+                  alt={photo.alt}
+                  fill
+                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                  className="object-cover"
+                />
+                <figcaption className="absolute bottom-3 left-3 bg-background/85 backdrop-blur-sm text-foreground text-xs font-medium px-3 py-1.5 rounded-full border border-border">
+                  {photo.label}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Testimonials */}
-      <section className="bg-background-alt">
+      <section className="bg-background">
         <div className="mx-auto max-w-[1200px] px-6 py-16 md:py-20">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-foreground text-center mb-12">
             What clients say
@@ -231,7 +282,7 @@ export default function HomePage() {
             {testimonials.map((t) => (
               <blockquote
                 key={t.name}
-                className="bg-background rounded-xl p-6 border border-border"
+                className="bg-background-alt rounded-xl p-6 border border-border"
               >
                 <p className="text-foreground leading-relaxed italic">
                   &ldquo;{t.quote}&rdquo;
@@ -246,7 +297,7 @@ export default function HomePage() {
       </section>
 
       {/* Service area */}
-      <section className="bg-background">
+      <section className="bg-background-alt border-t border-border">
         <div className="mx-auto max-w-[1200px] px-6 py-16 md:py-20 text-center">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-foreground mb-4">
             Serving South Side Chicago
@@ -261,11 +312,11 @@ export default function HomePage() {
       {/* Closing CTA */}
       <section className="bg-background-alt">
         <div className="mx-auto max-w-[1200px] px-6 py-16 md:py-20">
-          <div className="bg-primary rounded-2xl p-10 md:p-16 text-center">
-            <h2 className="font-serif text-3xl md:text-4xl font-semibold text-primary-foreground mb-4">
+          <div className="bg-accent rounded-2xl p-10 md:p-16 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl font-semibold text-accent-foreground mb-4">
               Ready for a home that feels as clean as it looks?
             </h2>
-            <p className="text-primary-foreground/80 mb-8 text-lg max-w-lg mx-auto">
+            <p className="text-accent-foreground/90 mb-8 text-lg max-w-lg mx-auto">
               Get a personalized quote in minutes. No obligations, no pressure.
             </p>
             <Button

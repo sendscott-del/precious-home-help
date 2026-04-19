@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Shield, ShieldCheck, UserCheck, Award } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Transparent $35/hr Cleaning Pricing in Chicago",
+  title: "Transparent $25/hr Cleaning Pricing in Chicago",
   description:
-    "Simple hourly pricing for personal house cleaning in Chicago. $35/hour for all services — no surprise minimums or hidden fees.",
+    "Simple hourly pricing for personal house cleaning in Chicago. $25/hour for all services — no surprise minimums or hidden fees.",
 };
 
 export default function PricingPage() {
@@ -19,7 +19,7 @@ export default function PricingPage() {
           </h1>
           <div className="mt-8 mb-4">
             <span className="font-serif text-6xl md:text-8xl font-semibold text-primary">
-              $35
+              $25
             </span>
             <span className="text-2xl md:text-3xl text-muted-foreground ml-2">
               / hour
@@ -60,8 +60,8 @@ export default function PricingPage() {
               </h3>
               <p className="text-muted-foreground leading-relaxed">
                 Franchises charge $200&ndash;$400 per visit. Independent
-                cleaners run $25&ndash;$40/hour with wildly different quality. I
-                sit in the middle, on purpose.
+                cleaners run $25&ndash;$40/hour with wildly different quality. My
+                rate is friendly to neighbors on a budget &mdash; without cutting corners on care.
               </p>
             </div>
           </div>

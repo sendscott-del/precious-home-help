@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -21,9 +22,17 @@ export function Nav() {
       <div className="mx-auto max-w-[1200px] px-6 flex items-center justify-between h-16">
         <Link
           href="/"
-          className="font-serif text-xl font-semibold text-foreground tracking-tight"
+          className="flex items-center gap-3 font-serif text-xl font-semibold text-foreground tracking-tight"
         >
-          Precious Home Help
+          <Image
+            src="/images/site/logo.png"
+            alt="Precious Home Help logo"
+            width={44}
+            height={44}
+            priority
+            className="h-10 w-10 rounded-full"
+          />
+          <span className="hidden sm:inline">Precious Home Help</span>
         </Link>
 
         {/* Desktop nav */}

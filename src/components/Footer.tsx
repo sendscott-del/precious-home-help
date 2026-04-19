@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const footerLinks = [
@@ -16,9 +17,18 @@ export function Footer() {
         <div className="grid gap-8 md:grid-cols-3">
           {/* About */}
           <div>
-            <h3 className="font-serif text-lg font-semibold text-foreground mb-3">
-              Precious Home Help
-            </h3>
+            <div className="flex items-center gap-3 mb-3">
+              <Image
+                src="/images/site/logo.png"
+                alt="Precious Home Help logo"
+                width={40}
+                height={40}
+                className="h-10 w-10 rounded-full"
+              />
+              <h3 className="font-serif text-lg font-semibold text-foreground">
+                Precious Home Help
+              </h3>
+            </div>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-xs">
               Personal, owner-operated house cleaning for Chicago&apos;s
               Hyde Park, Woodlawn, Bronzeville, and surrounding neighborhoods.

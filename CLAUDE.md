@@ -21,20 +21,21 @@ Personal, owner-operated house cleaning marketing site for Bukola Precious Agben
 - **Accessibility** — all images need alt, form inputs need labels, WCAG AA contrast
 - **Push after changes** — Scott tests via Vercel preview deploys
 
-## Color Palette
+## Color Palette (from Precious's logo)
 - Background: #FAF7F2 (warm off-white)
 - Background-alt: #F2EDE3 (deeper cream)
 - Foreground: #2B2B28 (charcoal)
-- Primary: #6B7F5E (sage green)
-- Primary-hover: #566748 (deeper sage)
-- Accent: #B8876A (warm clay — use sparingly)
+- Primary: #2E8B3E (logo green — roof/house)
+- Primary-hover: #1F6B2E (deeper green)
+- Accent: #E07B39 (logo orange — hand/type)
+- Accent-hover: #C96424 (deeper orange)
 - Border: #E8E2D5 (warm stone)
 
 ## Business Info
 - Owner: Bukola Precious Agbenike
 - Phone: (872) 235-9880
 - License: Chicago #306549
-- Rate: $35/hour flat
+- Rate: $25/hour flat
 - Service area: Hyde Park, Woodlawn, Bronzeville, surrounding Chicago neighborhoods
 
 ## Service Tiers

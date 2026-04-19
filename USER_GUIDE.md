@@ -10,8 +10,8 @@ Your website has these pages:
 
 - **Home** — The main landing page with your services, testimonials, and a call-to-action to request a quote
 - **Services** — Detailed descriptions of your four cleaning tiers: Essential Clean, Deep Sanctuary Clean, Eco-Move In/Out, and Health & Wellness Add-ons
-- **Pricing** — Your $35/hour pricing with explanations of why hourly pricing works
-- **About** — Your story and trust indicators (license, insurance, background check). *We need your personal bio here — we'll add it once you write it!*
+- **Pricing** — Your $25/hour pricing with explanations of why hourly pricing works
+- **About** — Your photo plus trust indicators (license, insurance, background check). *We still need your personal bio — we'll add it once you write it!*
 - **Book** — Where customers request a quote by filling out a short form (name, email, phone, service type, home size, and any notes). Submissions are emailed directly to you.
 - **Contact** — Phone, text, service area, and response time
 - **Referral** — Your "Refer a Neighbor, both save 15%" program
@@ -42,11 +42,19 @@ On mobile, there's a sticky "Text" button at the bottom of every page so custome
 
 ## Current status
 
-The site is being built in phases. We've completed through **Phase 3 (Quote Form)**. Next up:
+The site is being built in phases. We've completed through **Phase 6 (Brand assets & photos)**. Next up:
 - ~~Phase 1: Scaffold~~ Done
 - ~~Phase 2: Polish the visual design~~ Done
 - ~~Phase 3: Add the quote request form~~ Done
+- ~~Phase 6: Add your photos and brand colors (logo, profile photo, client home photos)~~ Done
 - Phase 4: Add the blog
 - Phase 5: SEO optimization
-- Phase 6: Add your photos and real content
 - Phase 7: Switch the domain from Squarespace to the new site
+
+### Latest brand update (v0.3.0)
+
+- New hourly rate: **$25/hour** (everywhere on the site)
+- Brand colors now match your logo: **green** for primary buttons/accents, **orange** for the closing call-to-action
+- Your logo appears next to the site name in the top nav and footer
+- Your profile photo is on the About page
+- The home page has a new "Homes Precious has cleaned" section with the kitchen, dining room, and laundry photos
