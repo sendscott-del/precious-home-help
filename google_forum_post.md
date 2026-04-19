@@ -22,11 +22,15 @@ Earlier, a duplicate profile was accidentally created for this business. Once I 
 - I am the sole owner and operator: Bukola Precious Agbenike
 - The business website is: precioushomehelp.com
 
+**Additional context:**
+The business profile and website were initially set up from a friend's home, which means the IP address at the time of setup may not match my home business address. I want to be transparent about this — the business operates from my home, and all future account activity will come from my home IP address.
+
 **What I've done to resolve this:**
 - Deleted the duplicate profile
 - Updated my Google account name to match my legal business name
 - Ensured my website includes full trust signals: service area, owner name, license number, and home-based business statement
-- Submitted reinstatement appeals (case IDs: [INSERT YOUR CASE IDS HERE])
+- All future profile management will be done from my home address
+- Submitted a reinstatement appeal, which was denied on June 26, 2025 (Routing ID: DPNB). The denial cited "deceptive content and behavior," but I believe this was triggered by the accidental duplicate profile and/or the IP address mismatch — not any intentional deception
 
 I respectfully request that a Product Expert escalate this for internal manual review. I am happy to provide any additional documentation needed, including my business license, website screenshots, and GBP dashboard screenshots.
 
