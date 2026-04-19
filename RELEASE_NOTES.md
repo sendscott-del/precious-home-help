@@ -43,3 +43,15 @@
 - Added home-based business statement to footer for GBP reinstatement compliance
 - Footer now reads: "Precious Home Help is a licensed, home-based cleaning service serving the South Side of Chicago."
 - Added Google Business Forum reinstatement post draft (google_forum_post.md)
+
+## v0.2.0 — 2026-04-18
+
+### Request a Quote form (Phase 3)
+
+- Built full quote request form on the /book page with fields for name, email, phone, service type, bedrooms, bathrooms, and free-text message
+- Form uses react-hook-form + zod v4 for client-side validation with inline error messages
+- Created API route at /api/quote that sends quote details to Precious via Resend email
+- Success state shows confirmation message with phone fallback
+- Loading state shows spinner while submitting
+- Server errors display user-friendly message with phone number fallback
+- Requires RESEND_API_KEY, QUOTE_RECIPIENT_EMAIL, and QUOTE_FROM_EMAIL env vars in Vercel

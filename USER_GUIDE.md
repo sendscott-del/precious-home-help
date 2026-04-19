@@ -12,7 +12,7 @@ Your website has these pages:
 - **Services** — Detailed descriptions of your four cleaning tiers: Essential Clean, Deep Sanctuary Clean, Eco-Move In/Out, and Health & Wellness Add-ons
 - **Pricing** — Your $35/hour pricing with explanations of why hourly pricing works
 - **About** — Your story and trust indicators (license, insurance, background check). *We need your personal bio here — we'll add it once you write it!*
-- **Book** — Where customers request a quote (form coming in the next update)
+- **Book** — Where customers request a quote by filling out a short form (name, email, phone, service type, home size, and any notes). Submissions are emailed directly to you.
 - **Contact** — Phone, text, service area, and response time
 - **Referral** — Your "Refer a Neighbor, both save 15%" program
 - **Blog** — Tips and articles about cleaning and home care (first post coming soon)
@@ -24,7 +24,7 @@ Your website has these pages:
 Right now the site directs customers to:
 - **Call:** (872) 235-9880
 - **Text:** (872) 235-9880
-- **Request a Quote:** (form coming soon — will email you directly)
+- **Request a Quote:** Customers fill out a form on the Book page with their name, email, phone, service type, home size, and any notes. The form emails you directly so you can follow up.
 
 On mobile, there's a sticky "Text" button at the bottom of every page so customers can reach you easily.
 
@@ -42,9 +42,10 @@ On mobile, there's a sticky "Text" button at the bottom of every page so custome
 
 ## Current status
 
-The site is being built in phases. Right now we're on **Phase 1 (Scaffold)** — the basic structure and pages are in place. Next up:
-- Phase 2: Polish the visual design
-- Phase 3: Add the quote request form
+The site is being built in phases. We've completed through **Phase 3 (Quote Form)**. Next up:
+- ~~Phase 1: Scaffold~~ Done
+- ~~Phase 2: Polish the visual design~~ Done
+- ~~Phase 3: Add the quote request form~~ Done
 - Phase 4: Add the blog
 - Phase 5: SEO optimization
 - Phase 6: Add your photos and real content
