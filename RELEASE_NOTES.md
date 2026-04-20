@@ -56,6 +56,15 @@
 - Server errors display user-friendly message with phone number fallback
 - Requires RESEND_API_KEY, QUOTE_RECIPIENT_EMAIL, and QUOTE_FROM_EMAIL env vars in Vercel
 
+## v0.3.2 — 2026-04-19
+
+### More prominent logo
+
+- Nav header grew from 64px to 80/96px (mobile/desktop) to give the logo room to breathe
+- Logo in the Nav went from 40×40 to 56×64 (mobile/desktop)
+- Footer logo grew from 40×40 to 64×64
+- Removed the `rounded-full` crop — the logo is already a circular badge with transparent corners, and the extra mask was clipping its edges
+
 ## v0.3.1 — 2026-04-19
 
 ### About page cleanup

@@ -21,9 +21,9 @@ export function Footer() {
               <Image
                 src="/images/site/logo.png"
                 alt="Precious Home Help logo"
-                width={40}
-                height={40}
-                className="h-10 w-10 rounded-full"
+                width={144}
+                height={144}
+                className="h-16 w-16"
               />
               <h3 className="font-serif text-lg font-semibold text-foreground">
                 Precious Home Help
