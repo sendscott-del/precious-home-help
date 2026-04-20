@@ -56,6 +56,12 @@
 - Server errors display user-friendly message with phone number fallback
 - Requires RESEND_API_KEY, QUOTE_RECIPIENT_EMAIL, and QUOTE_FROM_EMAIL env vars in Vercel
 
+## v0.3.1 — 2026-04-19
+
+### About page cleanup
+
+- Removed the placeholder italic note ("[This section will be updated with Precious's personal story in her own words.]") from the About page so the page reads cleanly until Precious supplies her full bio
+
 ## v0.3.0 — 2026-04-19
 
 ### Brand refresh: logo, real photos, and new hourly rate

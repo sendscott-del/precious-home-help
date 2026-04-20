@@ -38,10 +38,6 @@ export default function AboutPage() {
                 believe everyone deserves a clean, well-cared-for home &mdash;
                 with the personal attention that bigger services just can&rsquo;t provide.
               </p>
-              <p className="text-sm text-accent italic">
-                [This section will be updated with Precious&rsquo;s personal
-                story in her own words.]
-              </p>
             </div>
 
             {/* Trust indicators */}
