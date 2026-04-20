@@ -116,6 +116,12 @@ const testimonials = [
     quote:
       "Precious has been with our family for over 3 years and has drastically improved the quality of our daily living. She is reliable, trustworthy, and incredibly helpful in keeping our home tidy and clean. We appreciate all that she has done for us and highly recommend her services to other families looking for frequent upkeep of their homes.",
   },
+  {
+    name: "Hannah",
+    location: "",
+    quote:
+      "I've had the pleasure of working with Precious over the past year, and she has been consistently reliable and professional. Communication is always clear and timely, which makes scheduling and coordination very easy. She is dependable and ensures the job is completed, which I truly appreciate in a busy household. I'm grateful for her support and would recommend her services to anyone looking for someone trustworthy and responsive.",
+  },
 ];
 
 export default function HomePage() {
@@ -294,7 +300,7 @@ export default function HomePage() {
                   &ldquo;{t.quote}&rdquo;
                 </p>
                 <footer className="mt-4 text-sm text-muted-foreground">
-                  &mdash; {t.name}, {t.location}
+                  &mdash; {t.name}{t.location && `, ${t.location}`}
                 </footer>
               </blockquote>
             ))}

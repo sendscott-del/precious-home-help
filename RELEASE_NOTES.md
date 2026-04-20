@@ -56,6 +56,13 @@
 - Server errors display user-friendly message with phone number fallback
 - Requires RESEND_API_KEY, QUOTE_RECIPIENT_EMAIL, and QUOTE_FROM_EMAIL env vars in Vercel
 
+## v0.3.4 — 2026-04-20
+
+### New testimonial
+
+- Added testimonial from Hannah to the home page testimonials grid — highlights reliability, clear communication, and dependability
+- Made the location field optional in testimonial rendering so testimonials without a specified neighborhood don't render a trailing comma
+
 ## v0.3.3 — 2026-04-19
 
 ### New testimonial
