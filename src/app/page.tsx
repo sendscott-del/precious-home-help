@@ -110,6 +110,12 @@ const testimonials = [
     quote:
       "Precious keeps our life on track. After a long day, it is such a relief to come home to a clean house.",
   },
+  {
+    name: "Angela",
+    location: "Hyde Park",
+    quote:
+      "Precious has been with our family for over 3 years and has drastically improved the quality of our daily living. She is reliable, trustworthy, and incredibly helpful in keeping our home tidy and clean. We appreciate all that she has done for us and highly recommend her services to other families looking for frequent upkeep of their homes.",
+  },
 ];
 
 export default function HomePage() {
