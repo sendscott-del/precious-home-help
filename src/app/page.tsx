@@ -122,6 +122,12 @@ const testimonials = [
     quote:
       "I've had the pleasure of working with Precious over the past year, and she has been consistently reliable and professional. Communication is always clear and timely, which makes scheduling and coordination very easy. She is dependable and ensures the job is completed, which I truly appreciate in a busy household. I'm grateful for her support and would recommend her services to anyone looking for someone trustworthy and responsive.",
   },
+  {
+    name: "Alyssa",
+    location: "",
+    quote:
+      "I cannot recommend Precious highly enough! She has been managing the housekeeping for our home, and she is truly exceptional. Precious is the epitome of reliable and dependable—I never have to worry about whether the job will get done. She consistently goes above and beyond, paying attention to small details that make a huge difference. Because of her thoroughness and efficiency, she saves me a ton of time every week, allowing me to focus on work and family. If you are looking for a trustworthy, high-quality housekeeper, Precious is the perfect choice.",
+  },
 ];
 
 export default function HomePage() {
