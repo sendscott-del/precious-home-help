@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 const navLinks = [
   { href: "/services", label: "Services" },
@@ -45,9 +44,12 @@ export function Nav() {
               {link.label}
             </Link>
           ))}
-          <Button render={<Link href="/book" />} className="bg-primary hover:bg-primary-hover text-primary-foreground rounded-lg px-5">
-            Request a Quote
-          </Button>
+          <a
+            href="sms:8722359880"
+            className="inline-flex items-center bg-primary hover:bg-primary-hover text-primary-foreground rounded-lg px-5 py-2 text-sm font-medium transition-colors"
+          >
+            Text Precious
+          </a>
         </nav>
 
         {/* Mobile hamburger */}
@@ -74,9 +76,13 @@ export function Nav() {
                 {link.label}
               </Link>
             ))}
-            <Button render={<Link href="/book" onClick={() => setMobileOpen(false)} />} className="w-full bg-primary hover:bg-primary-hover text-primary-foreground rounded-lg mt-2">
-              Request a Quote
-            </Button>
+            <a
+              href="sms:8722359880"
+              onClick={() => setMobileOpen(false)}
+              className="w-full inline-flex items-center justify-center bg-primary hover:bg-primary-hover text-primary-foreground rounded-lg mt-2 py-2.5 text-sm font-medium transition-colors"
+            >
+              Text Precious
+            </a>
           </nav>
         </div>
       )}

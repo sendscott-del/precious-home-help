@@ -8,12 +8,11 @@ Hi Precious! This guide explains your new website and how to work with it.
 
 Your website has these pages:
 
-- **Home** — The main landing page with your services, testimonials, and a call-to-action to request a quote
+- **Home** — The main landing page with your services, testimonials, and direct contact buttons (text or email)
 - **Services** — Detailed descriptions of your four cleaning tiers: Essential Clean, Deep Sanctuary Clean, Eco-Move In/Out, and Health & Wellness Add-ons
 - **Pricing** — Your $25/hour pricing with explanations of why hourly pricing works
 - **About** — Your photo plus trust indicators (license, insurance, background check). *We still need your personal bio — we'll add it once you write it!*
-- **Book** — Where customers request a quote by filling out a short form (name, email, phone, service type, home size, and any notes). Submissions are emailed directly to you.
-- **Contact** — Phone, text, service area, and response time
+- **Contact** — Phone, text, email, service area, and response time
 - **Referral** — Your "Refer a Neighbor, both save 15%" program
 
 ---
@@ -23,9 +22,9 @@ Your website has these pages:
 Right now the site directs customers to:
 - **Call:** (872) 235-9880
 - **Text:** (872) 235-9880
-- **Request a Quote:** Customers fill out a form on the Book page with their name, email, phone, service type, home size, and any notes. The form emails you directly so you can follow up.
+- **Email:** precioushomehelp@gmail.com
 
-On mobile, there's a sticky "Text" button at the bottom of every page so customers can reach you easily.
+Every page has prominent "Text" and "Email" buttons so customers can reach you in one tap. On mobile, there's also a sticky "Text" button at the bottom of every page.
 
 ---
 

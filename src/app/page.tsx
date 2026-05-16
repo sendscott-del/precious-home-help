@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { ContactCTA } from "@/components/ContactCTA";
 import {
   Shield,
   ShieldCheck,
@@ -158,14 +159,8 @@ export default function HomePage() {
               a franchise can&apos;t offer. Serving Hyde Park, Woodlawn,
               Bronzeville, and nearby neighborhoods.
             </p>
-            <div className="mt-8 flex flex-col sm:flex-row gap-4">
-              <Button
-                render={<Link href="/book" />}
-                size="lg"
-                className="bg-primary hover:bg-primary-hover text-primary-foreground rounded-lg px-8 text-base"
-              >
-                Request a Quote
-              </Button>
+            <div className="mt-8 flex flex-col gap-4 items-start">
+              <ContactCTA />
               <Button
                 render={<Link href="/pricing" />}
                 variant="outline"
@@ -347,15 +342,9 @@ export default function HomePage() {
               Ready for a home that feels as clean as it looks?
             </h2>
             <p className="text-accent-foreground/90 mb-8 text-lg max-w-lg mx-auto">
-              Get a personalized quote in minutes. No obligations, no pressure.
+              Reach out directly — text or email Precious for a personalized quote.
             </p>
-            <Button
-              render={<Link href="/book" />}
-              size="lg"
-              className="bg-background text-foreground hover:bg-background-alt rounded-lg px-8 text-base"
-            >
-              Request a Quote
-            </Button>
+            <ContactCTA variant="onAccent" />
           </div>
         </div>
       </section>

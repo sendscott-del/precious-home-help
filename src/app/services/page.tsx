@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import { Sparkles, Home, Truck, Heart, User } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -135,12 +133,12 @@ export default function ServicesPage() {
                     <p className="text-muted-foreground leading-relaxed">
                       {service.whoItsFor}
                     </p>
-                    <Button
-                      render={<Link href="/book" />}
-                      className="mt-6 bg-primary hover:bg-primary-hover text-primary-foreground rounded-lg"
+                    <a
+                      href="sms:8722359880"
+                      className="inline-flex items-center gap-2 mt-6 bg-primary hover:bg-primary-hover text-primary-foreground rounded-lg px-4 py-2 text-sm font-medium transition-colors"
                     >
-                      Request a Quote
-                    </Button>
+                      Text Precious
+                    </a>
                   </div>
                 </div>
               </div>

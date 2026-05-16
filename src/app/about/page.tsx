@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import { ContactCTA } from "@/components/ContactCTA";
 import { Shield, ShieldCheck, UserCheck, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -87,14 +86,8 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="mt-12 text-center">
-              <Button
-                render={<Link href="/book" />}
-                size="lg"
-                className="bg-primary hover:bg-primary-hover text-primary-foreground rounded-lg px-8 text-base"
-              >
-                Request a Quote
-              </Button>
+            <div className="mt-12">
+              <ContactCTA />
             </div>
           </div>
         </div>

@@ -8,8 +8,6 @@ Personal, owner-operated house cleaning marketing site for Bukola Precious Agben
 - Next.js 14 (App Router) + TypeScript
 - Tailwind CSS v4 + shadcn/ui
 - Fonts: Fraunces (serif display) + Inter (sans body)
-- Email: Resend (quote form → Precious's inbox)
-- Forms: react-hook-form + zod
 - Hosting: Vercel
 
 ## Key Rules

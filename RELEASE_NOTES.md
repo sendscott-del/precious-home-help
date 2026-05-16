@@ -56,6 +56,18 @@
 - Server errors display user-friendly message with phone number fallback
 - Requires RESEND_API_KEY, QUOTE_RECIPIENT_EMAIL, and QUOTE_FROM_EMAIL env vars in Vercel
 
+## v0.5.0 — 2026-05-16
+
+### Removed quote form; direct contact only
+
+- Removed the "Request a Quote" form and the `/book` page entirely — customers now contact Precious directly via text or email
+- Replaced "Request a Quote" CTAs across home, about, services, pricing, and nav with prominent "Text (872) 235-9880" and "Email precioushomehelp@gmail.com" buttons
+- Added reusable `<ContactCTA />` component (dual text/email button)
+- Deleted `/api/quote` route, `QuoteForm` component, and the empty `src/app/api/` directory
+- Removed unused dependencies: `resend`, `react-hook-form`, `@hookform/resolvers`, `zod`
+- Removed `/book` URL from sitemap
+- Removed Resend env vars from Vercel (`RESEND_API_KEY`, `QUOTE_RECIPIENT_EMAIL`, `QUOTE_FROM_EMAIL`)
+
 ## v0.4.1 — 2026-05-16
 
 ### Fix silent-success bug in quote form
