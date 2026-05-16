@@ -134,6 +134,12 @@ const testimonials = [
     quote:
       "Precious is reliable, trustworthy, and a pleasure to work with. She communicates well, is consistently punctual, and takes pride in her work. She excels at organization—especially laundry, which is always neatly folded and put away with care. We highly recommend her to anyone looking for dependable, high-quality home cleaning and household support.",
   },
+  {
+    name: "Molly",
+    location: "Hyde Park",
+    quote:
+      "We have loved working with Precious! Finding her has significantly improved our quality of life. She takes care of all of the little things that we don't have time for. She is thorough and reliable. We went through several bad fits before finding Precious. I would (and have) highly recommend her to all.",
+  },
 ];
 
 export default function HomePage() {
