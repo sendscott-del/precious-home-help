@@ -42,16 +42,16 @@ export default function ContactPage() {
               </div>
             </a>
 
-            {/* TODO: Get Precious's email address */}
-            <div className="flex items-center gap-4 bg-background-alt rounded-xl p-5 border border-border">
+            <a
+              href="mailto:precioushomehelp@gmail.com"
+              className="flex items-center gap-4 bg-background-alt rounded-xl p-5 border border-border hover:border-primary/30 transition-colors"
+            >
               <Mail className="w-6 h-6 text-primary flex-shrink-0" />
               <div>
                 <p className="font-medium text-foreground">Email</p>
-                <p className="text-muted-foreground italic text-sm">
-                  Email address coming soon
-                </p>
+                <p className="text-muted-foreground">precioushomehelp@gmail.com</p>
               </div>
-            </div>
+            </a>
 
             <div className="flex items-center gap-4 bg-background-alt rounded-xl p-5 border border-border">
               <MapPin className="w-6 h-6 text-primary flex-shrink-0" />

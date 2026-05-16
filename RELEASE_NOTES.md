@@ -56,6 +56,20 @@
 - Server errors display user-friendly message with phone number fallback
 - Requires RESEND_API_KEY, QUOTE_RECIPIENT_EMAIL, and QUOTE_FROM_EMAIL env vars in Vercel
 
+## v0.3.7 — 2026-05-16
+
+### Quote form wired up + email contact published
+
+- Provisioned Resend API key and set `RESEND_API_KEY`, `QUOTE_RECIPIENT_EMAIL` (precioushomehelp@gmail.com), and `QUOTE_FROM_EMAIL` (quotes@precioushomehelp.com) env vars on Vercel — fixes "Server configuration error" on the Request a Quote button
+- Published Precious's email (precioushomehelp@gmail.com) on the Contact page; removed "Email address coming soon" placeholder and made the row a clickable mailto link
+- Domain precioushomehelp.com still needs DNS verification in Resend before outbound sends will succeed (DKIM + SPF records pending at registrar)
+
+## v0.3.6 — 2026-04-29
+
+### New testimonial
+
+- Added testimonial from Michelle (Hyde Park) to the home page testimonials grid — highlights reliability, communication, punctuality, and organization (especially laundry)
+
 ## v0.3.5 — 2026-04-24
 
 ### New testimonial

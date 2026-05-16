@@ -32,7 +32,7 @@ On mobile, there's a sticky "Text" button at the bottom of every page so custome
 
 ## What we still need from you
 
-1. **Your email address** — for the quote form to send you leads
+1. ~~**Your email address** — for the quote form to send you leads~~ Done — precioushomehelp@gmail.com is wired up
 2. **Your personal bio** — a paragraph or two in your own words for the About page
 3. **Google Business Profile** — your GBP is currently suspended due to a duplicate profile flag. We've added trust signals to the website footer (home-based statement, license number, owner name, service area) and prepared a forum post for reinstatement. See `google_forum_post.md` for the post to submit after waiting 48-72 hours
 4. **Do you have email on your domain** (like precious@precioushomehelp.com)? — we need to know before switching DNS

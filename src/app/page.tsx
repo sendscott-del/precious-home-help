@@ -128,6 +128,12 @@ const testimonials = [
     quote:
       "I cannot recommend Precious highly enough! She has been managing the housekeeping for our home, and she is truly exceptional. Precious is the epitome of reliable and dependable—I never have to worry about whether the job will get done. She consistently goes above and beyond, paying attention to small details that make a huge difference. Because of her thoroughness and efficiency, she saves me a ton of time every week, allowing me to focus on work and family. If you are looking for a trustworthy, high-quality housekeeper, Precious is the perfect choice.",
   },
+  {
+    name: "Michelle",
+    location: "Hyde Park",
+    quote:
+      "Precious is reliable, trustworthy, and a pleasure to work with. She communicates well, is consistently punctual, and takes pride in her work. She excels at organization—especially laundry, which is always neatly folded and put away with care. We highly recommend her to anyone looking for dependable, high-quality home cleaning and household support.",
+  },
 ];
 
 export default function HomePage() {
