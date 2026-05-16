@@ -55,7 +55,7 @@ export async function POST(request: Request) {
     .join("\n");
 
   try {
-    await resend.emails.send({
+    const { data: sendData, error: sendError } = await resend.emails.send({
       from: fromEmail,
       to: recipientEmail,
       replyTo: data.email,
@@ -63,9 +63,18 @@ export async function POST(request: Request) {
       text: `New quote request from your website:\n\n${lines}`,
     });
 
+    if (sendError) {
+      console.error("Resend send error:", sendError);
+      return Response.json(
+        { error: "Failed to send email. Please try again." },
+        { status: 500 }
+      );
+    }
+
+    console.log("Quote email sent:", sendData?.id);
     return Response.json({ success: true });
   } catch (err) {
-    console.error("Resend error:", err);
+    console.error("Resend exception:", err);
     return Response.json(
       { error: "Failed to send email. Please try again." },
       { status: 500 }

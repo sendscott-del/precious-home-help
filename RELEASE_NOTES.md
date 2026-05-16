@@ -56,6 +56,13 @@
 - Server errors display user-friendly message with phone number fallback
 - Requires RESEND_API_KEY, QUOTE_RECIPIENT_EMAIL, and QUOTE_FROM_EMAIL env vars in Vercel
 
+## v0.4.1 — 2026-05-16
+
+### Fix silent-success bug in quote form
+
+- The Resend SDK v6 returns errors in the response object instead of throwing; the previous code only caught thrown exceptions, so failed sends (e.g. unverified domain) reported `success: true` to the form without delivering email
+- Route now inspects the `error` field on the SDK response and returns a 500 when the send fails
+
 ## v0.4.0 — 2026-05-16
 
 ### Removed blog section
