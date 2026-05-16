@@ -15,7 +15,6 @@ Your website has these pages:
 - **Book** — Where customers request a quote by filling out a short form (name, email, phone, service type, home size, and any notes). Submissions are emailed directly to you.
 - **Contact** — Phone, text, service area, and response time
 - **Referral** — Your "Refer a Neighbor, both save 15%" program
-- **Blog** — Tips and articles about cleaning and home care (first post coming soon)
 
 ---
 
@@ -47,7 +46,7 @@ The site is being built in phases. We've completed through **Phase 6 (Brand asse
 - ~~Phase 2: Polish the visual design~~ Done
 - ~~Phase 3: Add the quote request form~~ Done
 - ~~Phase 6: Add your photos and brand colors (logo, profile photo, client home photos)~~ Done
-- Phase 4: Add the blog
+- ~~Phase 4: Blog~~ Removed — not part of the plan
 - Phase 5: SEO optimization
 - Phase 7: Switch the domain from Squarespace to the new site
 

@@ -56,6 +56,17 @@
 - Server errors display user-friendly message with phone number fallback
 - Requires RESEND_API_KEY, QUOTE_RECIPIENT_EMAIL, and QUOTE_FROM_EMAIL env vars in Vercel
 
+## v0.4.0 — 2026-05-16
+
+### Removed blog section
+
+- Removed the Blog page and dynamic post route (`/blog`, `/blog/[slug]`) — not part of the marketing plan
+- Removed Blog link from primary nav and footer
+- Removed `/blog` URL from sitemap
+- Removed empty `src/content/blog/` directory
+- Removed `next-mdx-remote` dependency (was added only for the blog)
+- Updated CLAUDE.md tech stack notes to drop MDX/blog mention
+
 ## v0.3.8 — 2026-05-16
 
 ### New testimonial
