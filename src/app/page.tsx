@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import { ContactCTA } from "@/components/ContactCTA";
 import {
   Shield,
@@ -161,14 +160,12 @@ export default function HomePage() {
             </p>
             <div className="mt-8 flex flex-col gap-4 items-start">
               <ContactCTA />
-              <Button
-                render={<Link href="/pricing" />}
-                variant="outline"
-                size="lg"
-                className="rounded-lg px-8 text-base border-border text-foreground hover:bg-background-alt"
+              <Link
+                href="/pricing"
+                className="inline-flex items-center justify-center rounded-lg px-8 py-3 text-base font-medium border border-border text-foreground hover:bg-background-alt transition-colors"
               >
                 How pricing works
-              </Button>
+              </Link>
             </div>
           </div>
         </div>

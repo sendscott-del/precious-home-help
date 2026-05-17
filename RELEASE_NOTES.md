@@ -56,6 +56,15 @@
 - Server errors display user-friendly message with phone number fallback
 - Requires RESEND_API_KEY, QUOTE_RECIPIENT_EMAIL, and QUOTE_FROM_EMAIL env vars in Vercel
 
+## v0.5.1 — 2026-05-17
+
+### Site-wide debug pass
+
+- Fixed Base UI `nativeButton` accessibility warning on the home page (the only remaining `<Button render={<Link>}>` pattern) — replaced with a styled `<Link>`. Resolves the "1 Issue" indicator shown by Next.js dev tools and a real semantics bug where a button rendered as an anchor.
+- Added a closing ContactCTA section to the bottom of the Services page — the page previously dead-ended into the footer with no final call-to-action.
+- Wired up the existing `getLocalBusinessJsonLd` SEO helper into the root layout (was defined in `src/lib/seo.ts` but never injected). Also fixed the helper's image URL to point at an asset that actually exists (`/images/site/kitchen.webp` instead of the missing `/og.jpg`) and added the canonical `url` field.
+- Verified across all 6 pages: 200 status, single h1, alt text on every image, no empty links/buttons, JSON-LD now present, meta descriptions sized 80-150 chars, all internal anchors (`/services#essential`, `#deep`, `#move`, `#wellness`) resolve. Production build clean with no TypeScript errors.
+
 ## v0.5.0 — 2026-05-16
 
 ### Removed quote form; direct contact only

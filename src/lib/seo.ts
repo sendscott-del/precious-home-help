@@ -17,8 +17,9 @@ export function getLocalBusinessJsonLd() {
     "@context": "https://schema.org",
     "@type": "HouseCleaningService",
     name: siteConfig.name,
-    image: `${siteConfig.url}/og.jpg`,
+    image: `${siteConfig.url}/images/site/kitchen.webp`,
     telephone: siteConfig.phone,
+    url: siteConfig.url,
     priceRange: siteConfig.priceRange,
     areaServed: siteConfig.areaServed.map((area) => ({
       "@type": "Place",

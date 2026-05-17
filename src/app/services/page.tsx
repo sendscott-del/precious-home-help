@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Sparkles, Home, Truck, Heart, User } from "lucide-react";
+import { ContactCTA } from "@/components/ContactCTA";
 
 export const metadata: Metadata = {
   title: "Cleaning Services — Essential, Deep, Eco Move-Out",
@@ -160,11 +161,12 @@ export default function ServicesPage() {
               every time. No rotating staff, no wondering who&rsquo;s showing
               up. Just one person who knows your home and your preferences.
             </p>
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-muted-foreground leading-relaxed mb-8">
               Have specific products you prefer? A particular way you like
               things done? Just say so. I&rsquo;m flexible and I pay attention
               to the details that matter to you.
             </p>
+            <ContactCTA />
           </div>
         </div>
       </section>
